@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.377);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+.navbar {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* gap: 50%; */
+  box-shadow: 2px 5px 10px rgba(24, 24, 24, 0.1);
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.memoji {
+  border: 1px solid #0d0d29;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+}
+img {
+  width: 100%;
+}
+
+svg {
+  width: 40px;
+  /* height: 50px; */
+}
+.memoji svg {
+  margin-left: 40px;
+}
+/* .memoji img {
+  margin-left: 10px;
+} */
+.picture img {
+  width: 370px;
+  height: 390px;
+  margin: 20px 0 10px 0;
+}
+.home h2 {
+  font-size: 2.3rem;
+  /* line-height: 35px; */
+  padding:0.9rem;
+  color: #0d0d29;
+}
+#head {
+  background-color: rgb(221, 147, 36);
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  border-radius: 5px;
+}
+.about{
+  padding: 0.9rem;
+}
+
+.about button {
+  background-color: #0d0d29;
+  color: white;
+  border-radius: unset;
+  text-transform: uppercase;
+}
+.my_pic{
+  padding: 0.9rem;
+  border-bottom:  1px solid hsl(0, 0%, 50%);
+}
+.about .about-text h2{
+  text-transform: uppercase;
+  color: #0d0d29;
+}
+.about .about-text{
+  line-height: 1.5;
+  padding: 0.8rem;
+}
+.about .about-text p{
+  color:rgba(0, 0, 0, 0.911)
+}
+.project {
+  padding: 0.8rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  
+}
+.project h2 {
+  color: #0d0d29;
+  font-size: 2.3rem;
+}
+button {
+  border: 1px solid black;
+  padding:0.8rem;
+  border-radius: 5px;
+}
+button a {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  background-color:#0d0d29;
+  text-align: center;
+  align-items: center;
+  padding: 25px;
+  color: white;
+}
+.links a {
+  margin-top: 20px;
+  color: white;
+
+  text-decoration: none;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.one svg,
+.two svg,
+.three svg {
+  width: 30px;
+  height: 30px;
+}
+
+/* Desktop version */
+@media (min-width: 800px) {
+  body {
+    padding: 10rem 10rem;
+  }
+}
